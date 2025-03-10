@@ -1,0 +1,119 @@
+=== OS MATCHING REPORT ===
+
+=== OS MATCH COUNTS ===
+Red Hat Enterprise Linux 9: 3787 matches
+Ubuntu 22.04: 3721 matches
+Red Hat Enterprise Linux 8: 3212 matches
+Ubuntu 20.04: 3193 matches
+Debian 11: 3191 matches
+CentOS 7: 3116 matches
+CentOS 8: 3116 matches
+Debian 10: 3116 matches
+MacOS 14 Sonoma: 670 matches
+Windows Server: 599 matches
+MacOS 13 Ventura: 382 matches
+Windows Server 2012: 377 matches
+MacOS 12 Monterey: 146 matches
+Windows 11: 90 matches
+Windows Server 2022: 84 matches
+Windows Server 2016: 84 matches
+Windows Server 2025: 43 matches
+Windows 10: 18 matches
+Red Hat Enterprise Linux 7: 17 matches
+Windows Server 2008: 10 matches
+Windows Server 2019: 6 matches
+Windows 7: 3 matches
+SUSE 15: 2 matches
+Ubuntu 24.04: 1 matches
+
+=== UNIQUE UNMATCHED OS NAMES ===
+linux: 3507 occurrences
+linux kernel: 3373 occurrences
+windows: 1625 occurrences
+android: 570 occurrences
+macos: 528 occurrences
+red hat enterprise linux: 255 occurrences
+macos sequoia 15: 170 occurrences
+pan-os: 34 occurrences
+rhel: 23 occurrences
+ubuntu: 19 occurrences
+red hat enterprise linux 6: 10 occurrences
+macos before version 6: 3 occurrences
+windows 12: 3 occurrences
+macos version 0: 2 occurrences
+macos and zoom rooms client for macos before 6: 2 occurrences
+macos is installed: 2 occurrences
+macos contains a local privilege escalation: 2 occurrences
+macos version 3: 2 occurrences
+macos allows local attackers to exfiltrate vault items because xpc inter: 1 occurrences
+macos allows a malformed mach: 1 occurrences
+macos prior to 5: 1 occurrences
+macos allows a malformed eml file to crash the application during file processing: 1 occurrences
+macos allows an a adversary with local access to execute code under the context of the authpoint password manager application: 1 occurrences
+macos resolution is the same as for cve: 1 occurrences
+macos and windows allows code injection because of specific electron fuses: 1 occurrences
+macos installer: 1 occurrences
+macos allows a remote attacker to execute arbitrary code via the runasnode and enablenodeclilnspectarguments settings: 1 occurrences
+macos prior to 1: 1 occurrences
+macos may allow a malformed xar file to crash the application during processing: 1 occurrences
+macos has a buffer overflow that could potentially allow a local actor to execute arbitrary commands with elevated permissions: 1 occurrences
+macos platforms: 1 occurrences
+macos via empty password: 1 occurrences
+macos allows authentication bypass: 1 occurrences
+macos allowed to load arbitrary code when starting the client with dyld_insert_libraries set in the enviroment: 1 occurrences
+macos allows local attackers to exfiltrate vault items by bypassing macos: 1 occurrences
+macos can lead to local privilege escalation: 1 occurrences
+macos allows a malformed xar file to crash the application during file processing: 1 occurrences
+macos prior to 4: 1 occurrences
+macos users to update to this version: 1 occurrences
+macos if a firefox update were being applied on a very busy system: 1 occurrences
+macos allows a denial of service of the client connector binary and thus removing client functionality: 1 occurrences
+macos allows an attacker with unprivileged access: 1 occurrences
+macos dtex event forwarder agent: 1 occurrences
+macos allows file manipulation: 1 occurrences
+macos sandbox: 1 occurrences
+macos might allow code execution because of runasnode and enablenodeclilnspectarguments: 1 occurrences
+macos during the upgrade process may allow a local execution of code: 1 occurrences
+macos systems: 1 occurrences
+macos allows os command execution by remote authenticated users: 1 occurrences
+macos device with sidecar enabled may be able to bypass the lock screen: 1 occurrences
+macos and withsecure elements client security through 23: 1 occurrences
+macos single sign: 1 occurrences
+macos allows local electron code injection via a complex series of steps that might be usable in some environments: 1 occurrences
+macos may allow arbitrary code execution: 1 occurrences
+macos may allow: 1 occurrences
+macos users are not affected: 1 occurrences
+macos 2: 1 occurrences
+macos versions before 1: 1 occurrences
+macos are not affected by this vulnerability: 1 occurrences
+macos allows an attacker with administrative user rights to further elevate privileges via executable sideloading: 1 occurrences
+macos has granted cursor access to the camera or microphone: 1 occurrences
+debian: 1 occurrences
+macos 2024: 1 occurrences
+macos and zoom meeting sdk for macos before 6: 1 occurrences
+macos allows local code inclusion: 1 occurrences
+macos or linux: 1 occurrences
+debian 1: 1 occurrences
+macos prior 1: 1 occurrences
+macos enables a user logged on to the system to perform a denial: 1 occurrences
+macos are much less likely to be affected: 1 occurrences
+macos version 7: 1 occurrences
+linux
+  kernel: 1 occurrences
+macos and linux which may allow an attacker to bypass f5 endpoint inspection: 1 occurrences
+macos before version 5: 1 occurrences
+macos installations are affected: 1 occurrences
+macos text: 1 occurrences
+macos papercut ng: 1 occurrences
+macos allows attackers to execute arbitrary code via insecure electron fuses configuration: 1 occurrences
+windows 3: 1 occurrences
+macos version 2: 1 occurrences
+macos and zoom meeting sdk for macos: 1 occurrences
+macos opts out of the sandbox: 1 occurrences
+macos is not the same as cve: 1 occurrences
+macos allows os command injection: 1 occurrences
+
+=== OS MATCHING SUMMARY ===
+Total OS mentions: 39180
+Matched OS records: 28984 (73.98%)
+Unmatched OS records: 10196 (26.02%)

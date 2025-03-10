@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: os_match_validation
+    description: >
+      This model evaluates the quality of OS matching by identifying CVEs with
+      potentially incorrect or missing OS matches. It helps validate the LLM-based
+      normalization process and prioritizes records for manual review.
+    columns:
+      - name: cve_id
+        description: Unique identifier for the CVE record
+        tests:
+          - not_null
+      
+      - name: match_count
+        description: Number of successfully matched OS references for this CVE
+        tests:
+          - not_null
+      
+      - name: unmatched_count
+        description: Number of OS mentions that couldn't be matched to the reference list
+        tests:
+          - not_null
+      
+      - name: match_quality
+        description: >
+          Categorization of match quality:
+          - NO_MATCHES: No OS matches found
+          - ALL_MATCHED: All identified OS mentions were successfully matched
+          - MOSTLY_MATCHED: More matches than unmatched mentions
+          - MOSTLY_UNMATCHED: More unmatched mentions than matches
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['NO_MATCHES', 'ALL_MATCHED', 'MOSTLY_MATCHED', 'MOSTLY_UNMATCHED']
+      
+      - name: has_potential_false_matches
+        description: >
+          Boolean flag indicating whether any matches appear to be potentially incorrect
+          based on text analysis of the CVE description and metadata
+        tests:
+          - not_null
+      
+      - name: validation_priority
+        description: >
+          Priority level for manual validation:
+          - HIGH: Needs urgent review (no matches or potential false matches)
+          - MEDIUM: Should be reviewed but less urgent
+          - LOW: Likely correct, low priority for review
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['HIGH', 'MEDIUM', 'LOW'] 

@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment and local settings
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Database files
+*.db
+*.sqlite3
+
+# Logs
+*.log
+terminal_log.txt
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Cache files
+os_cache.json
+*.cache
+
+# Local development configuration
+.idea/
+.vscode/
+
+# Downloaded data (if needed, add back specific directories)
+cvelist_extracted/ 
