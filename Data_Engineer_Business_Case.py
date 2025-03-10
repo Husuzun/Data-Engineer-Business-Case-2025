@@ -1131,11 +1131,7 @@ def main():
         # Cache'i yükle
         load_cache()
         
-        # Veri indirme ve çıkarma adımlarını atlıyoruz, zaten mevcut olan klasörü kullanacağız
-        # print("Downloading ZIP file...")
         zip_data = download_zip(ZIP_URL)
-        
-        # print("Extracting ZIP file...")
         extract_dir = "cvelist_extracted"
         extract_zip(zip_data, extract_dir)
         print(f"Using existing files from '{extract_dir}' directory.")
